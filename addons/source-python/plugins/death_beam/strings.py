@@ -1,23 +1,28 @@
-# ../projectile_trails/info.py
+# ../death_beam/strings.py
 
-"""Provides/stores information about the plugin."""
+"""Contains all translation variables for the base plugin."""
 
 # =============================================================================
 # >> IMPORTS
 # =============================================================================
 # Source.Python
-from plugins.manager import plugin_manager
+from translations.strings import LangStrings
+
+# Plugin
+from .info import info
 
 
 # =============================================================================
 # >> ALL DECLARATION
 # =============================================================================
 __all__ = (
-    'info',
+    'CONFIG_STRINGS',
+    'TRANSLATION_STRINGS',
 )
 
 
 # =============================================================================
-# >> PLUGIN INFO
+# >> GLOBAL VARIABLES
 # =============================================================================
-info = plugin_manager.get_plugin_info(__name__)
+CONFIG_STRINGS = LangStrings(f'{info.name}/config_strings')
+TRANSLATION_STRINGS = LangStrings(f'{info.name}/strings')
