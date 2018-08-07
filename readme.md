@@ -1,24 +1,16 @@
 # DeathBeam
 
 ## Introduction
-DeathBeam is a plugin created for [Source.Python](https://github.com/Source-Python-Dev-Team/Source.Python).  As such, it requires [Source.Python](https://github.com/Source-Python-Dev-Team/Source.Python) to be installed on Source-engine servers.
+DeathBeam is a plugin created for [Source.Python](https://github.com/Source-Python-Dev-Team/Source.Python).  As such, it requires [Source.Python](https://github.com/Source-Python-Dev-Team/Source.Python) to be installed on Source-engine servers.  The plugin shows a beam from the muzzle of the killer's weapon to the point of impact where the bullet hit.
 
-This plugin shows a beam from the muzzle of the killer's weapon to the point of impact where the bullet hit.
-
-<br>
 ## Installation
-To install, simply download the current release from its [release thread](https://forums.sourcepython.com/viewtopic.php?t=1853) and install it into the main directory on your server.
-
-Once you have installed DeathBeam on your server, simply add the following to your autoexec.cfg file:
+To install, simply download the current release from its [release thread](https://forums.sourcepython.com/viewtopic.php?t=1853) and install it into the main directory on your server.  Once you have installed DeathBeam on your server, simply add the following to your autoexec.cfg file:
 ```
 sp plugin load death_beam
 ```
 
-<br>
 ## Configuration
-After having loaded the plugin once, a configuration file will have been created on your server at **../cfg/source-python/death_beam.cfg**
-
-Edit that file to your liking.  The current default configuration file looks like:
+After having loaded the plugin once, a configuration file will have been created on your server at **../cfg/source-python/death_beam.cfg**  Edit that file to your liking.  The current default configuration file looks like:
 ```
 // Default Value: 10
 // Set to the width of the death beam.
