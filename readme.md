@@ -1,13 +1,21 @@
 # DeathBeam
 
 ## Introduction
-DeathBeam is a plugin created for [Source.Python](https://github.com/Source-Python-Dev-Team/Source.Python).  As such, it requires [Source.Python](https://github.com/Source-Python-Dev-Team/Source.Python) to be installed on Source-engine servers.  The plugin shows a beam from the muzzle of the killer's weapon to the point of impact where the bullet hit.
+DeathBeam is a plugin created for [Source.Python](https://github.com/Source-Python-Dev-Team/Source.Python).  As such, it requires [Source.Python](https://github.com/Source-Python-Dev-Team/Source.Python) to be installed on Source-engine servers.
+
+The plugin shows a beam from the muzzle of the killer's weapon to the point of impact where the bullet hit.
+
+<br>
 
 ## Installation
-To install, simply download the current release from its [release thread](https://forums.sourcepython.com/viewtopic.php?t=1853) and install it into the main directory on your server.  Once you have installed DeathBeam on your server, simply add the following to your autoexec.cfg file:
+To install, simply download the current release from its [release thread](https://forums.sourcepython.com/viewtopic.php?t=1853) and install it into the main directory on your server.
+
+Once you have installed DeathBeam on your server, simply add the following to your autoexec.cfg file:
 ```
 sp plugin load death_beam
 ```
+
+<br>
 
 ## Configuration
 After having loaded the plugin once, a configuration file will have been created on your server at **../cfg/source-python/death_beam.cfg**  Edit that file to your liking.  The current default configuration file looks like:
@@ -27,6 +35,8 @@ After having loaded the plugin once, a configuration file will have been created
    db_beam_model "sprites/laser.vmt"
 ```
 
+<br>
+
 ## Screenshots
 The following are screenshots of the menu and messages that accompany this plugin:
 
@@ -34,13 +44,19 @@ The following are screenshots of the menu and messages that accompany this plugi
 
 ![CS:S CT death beam](https://raw.githubusercontent.com/satoon101/DeathBeam/screenshots/css_ct_death.jpg "CS:S CT death beam")
 
+<br>
+
 **CS:S CT death beam 2:**
 
 ![CS:S CT death beam 2](https://raw.githubusercontent.com/satoon101/DeathBeam/screenshots/css_t_death.jpg "CS:S CT death beam 2")
 
+<br>
+
 **CS:S T death beam:**
 
 ![CS:S T death beam](https://raw.githubusercontent.com/satoon101/DeathBeam/screenshots/css_ct_bot_death.jpg "CS:S T death beam")
+
+<br>
 
 **CS:S T death beam 2:**
 
