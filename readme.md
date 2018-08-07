@@ -32,16 +32,16 @@ The following are screenshots of the menu and messages that accompany this plugi
 
 **CS:S CT death beam:**
 
-![CS:S CT death beam](https://raw.githubusercontent.com/satoon101/DeathBeam/screenshots/css_ct_death.jpg "CS:GO Menu")
+![CS:S CT death beam](https://raw.githubusercontent.com/satoon101/DeathBeam/screenshots/css_ct_death.jpg "CS:S CT death beam")
 
 **CS:S CT death beam 2:**
 
-![CS:S CT death beam 2](https://raw.githubusercontent.com/satoon101/DeathBeam/screenshots/css_t_death.jpg "CS:GO Menu")
+![CS:S CT death beam 2](https://raw.githubusercontent.com/satoon101/DeathBeam/screenshots/css_t_death.jpg "CS:S CT death beam 2")
 
 **CS:S T death beam:**
 
-![CS:S T death beam](https://raw.githubusercontent.com/satoon101/DeathBeam/screenshots/css_ct_bot_death.jpg "CS:GO Menu")
+![CS:S T death beam](https://raw.githubusercontent.com/satoon101/DeathBeam/screenshots/css_ct_bot_death.jpg "CS:S T death beam")
 
 **CS:S T death beam 2:**
 
-![CS:S T death beam 2](https://raw.githubusercontent.com/satoon101/DeathBeam/screenshots/css_t_bot_death.jpg "CS:GO Menu")
+![CS:S T death beam 2](https://raw.githubusercontent.com/satoon101/DeathBeam/screenshots/css_t_bot_death.jpg "CS:S T death beam 2")
