@@ -42,8 +42,6 @@ with ConfigManager(info.name, 'db_') as _config:
 
     beam_model = _config.cvar(
         name='beam_model',
-        default='sprites/laser{suffix}.vmt'.format(
-            suffix='beam' if GAME_NAME == 'csgo' else ''
-        ),
+        default=f'sprites/laser{"beam" if GAME_NAME == "csgo" else ""}.vmt',
         description=CONFIG_STRINGS['beam_model'],
     )

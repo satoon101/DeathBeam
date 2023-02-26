@@ -24,7 +24,6 @@ from studio.cache import model_cache
 
 # Plugin
 from .config import beam_model, beam_time, beam_width
-from .strings import TRANSLATION_STRINGS
 
 
 # =============================================================================
@@ -107,7 +106,7 @@ def _get_start_from_weapon(player):
     """Return the weapon's position."""
     weapon = player.active_weapon
     if weapon is None:
-        return
+        return None
 
     world_model = string_tables[Model.precache_table][weapon.world_model_index]
     header = model_cache.get_model_header(model_cache.find_model(world_model))
@@ -119,13 +118,13 @@ def _get_start_from_weapon(player):
         has_muzzle = True
 
     if not has_muzzle:
-        return
+        return None
 
     bone = _find_bone(player.model_header, 'ValveBiped.Bip01_R_Hand')
     if bone == -1:
-        return
+        return None
 
-    GetBoneTransform = player.make_virtual_function(
+    get_bone_transform = player.make_virtual_function(
         199,
         Convention.THISCALL,
         [DataType.POINTER, DataType.INT, DataType.POINTER],
@@ -133,7 +132,7 @@ def _get_start_from_weapon(player):
     )
 
     matrix = Matrix3x4()
-    GetBoneTransform(player, bone, matrix)
+    get_bone_transform(player, bone, matrix)
 
     angles = matrix.angles
     angles.z += 180
